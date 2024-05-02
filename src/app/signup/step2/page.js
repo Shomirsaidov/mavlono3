@@ -29,15 +29,47 @@ const Page = () => {
                         <input type="checkbox" id="checkbox-20" />
                         <label for="checkbox-20"></label>
                     </div>
-                    <label for="checkbox-20">asdsa</label>
+                    <label for="checkbox-20">Чалолиддини Руми</label>
                 </div>
 
                 <div class="checkbox-wrapper-18 flex space-x-2">
                     <div class="round">
-                        <input type="checkbox" id="checkbox-19" />
+                        <input type="checkbox" id="checkbox-22" />
                         <label for="checkbox-19"></label>
                     </div>
-                    <label for="checkbox-19">asdsa</label>
+                    <label for="checkbox-22">Саъди Шерози</label>
+                </div>
+
+                <div class="checkbox-wrapper-18 flex space-x-2">
+                    <div class="round">
+                        <input type="checkbox" id="checkbox-23" />
+                        <label for="checkbox-19"></label>
+                    </div>
+                    <label for="checkbox-23">Хофизи Шерози</label>
+                </div>
+
+                <div class="checkbox-wrapper-18 flex space-x-2">
+                    <div class="round">
+                        <input type="checkbox" id="checkbox-24" />
+                        <label for="checkbox-19"></label>
+                    </div>
+                    <label for="checkbox-24">Абулкодири Бедил</label>
+                </div>
+
+                <div class="checkbox-wrapper-18 flex space-x-2">
+                    <div class="round">
+                        <input type="checkbox" id="checkbox-25" />
+                        <label for="checkbox-19"></label>
+                    </div>
+                    <label for="checkbox-25">Лоик Шерали</label>
+                </div>
+
+                <div class="checkbox-wrapper-18 flex space-x-2">
+                    <div class="round">
+                        <input type="checkbox" id="checkbox-26" />
+                        <label for="checkbox-26"></label>
+                    </div>
+                    <label for="checkbox-19">Фаридуддини Аттор</label>
                 </div>
                 
                 
