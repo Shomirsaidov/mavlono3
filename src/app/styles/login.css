@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Libre+Baskerville:ital@1&family=Poller+One&family=Roboto+Slab:wght@100..900&family=Rubik+Bubbles&family=Vina+Sans&display=swap');    
+
+* {
+    font-family: "Roboto Slab", serif;
+}
+
+.progress_circle {
+    background: #ececec;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.progress_active {
+    background: #abaab8;
+}
+
+.form {
+    background: #ececec;
+    width: 100%;
+}
+
+.form::placeholder {
+    color: #aaaaaa;
+}
+
+.next_button {
+    background: linear-gradient(#2d2c54, #6361b9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

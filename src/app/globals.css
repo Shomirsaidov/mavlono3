@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Libre+Baskerville:ital@1&family=Poller+One&family=Roboto+Slab:wght@100..900&family=Rubik+Bubbles&family=Vina+Sans&display=swap');    
+
+* {
+    font-family: "Roboto Slab", serif;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
+}
+      
