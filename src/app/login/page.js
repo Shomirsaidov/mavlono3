@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import TopBar from '../../components/bar'
-import login from '../../styles/login.css'
+import TopBar from '../components/barPeriodic'
+import login from '../styles/login.css'
 
 const Page = () => {
     return (
@@ -9,8 +9,8 @@ const Page = () => {
 
         <div className='pt-16'>
 
-          <div className="p-8 pt-12">
-            <div className='flex justify-center space-x-4 mb-16'>
+          <div className="p-8 pt-12 md:px-80">
+            <div className='flex justify-center space-x-4 mb-8'>
               <div className='progress_circle progress_active'></div>
               <div className='progress_circle'></div>
               <div className='progress_circle'></div>
@@ -21,9 +21,7 @@ const Page = () => {
             <h1 className='mt-8 text-center font-black'>Даромадан ба профил</h1>
 
             <div className='space-y-6 mt-8'>
-              <input type='text' placeholder='Ному насаб' className='form p-4 rounded-lg outline-none'/>
-              <input type='text' placeholder='Почтаи электрони' className='form p-4 rounded-lg outline-none'/>
-              <input type='text' placeholder='Раками телефон' className='form p-4 rounded-lg outline-none'/>
+              <input type='text' placeholder='Почтаи электрони ё раками телефон' className='form p-4 rounded-lg outline-none'/>
               <input type='password' placeholder='Парол' className='form p-4 rounded-lg outline-none'/>
             </div>
 

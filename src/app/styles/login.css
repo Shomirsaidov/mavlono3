@@ -19,6 +19,7 @@
 .form {
     background: #ececec;
     width: 100%;
+    box-shadow: inset 5px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .form::placeholder {
@@ -26,7 +27,7 @@
 }
 
 .next_button {
-    background: linear-gradient(#2d2c54, #6361b9);
+    background: linear-gradient(90deg,#2d2c54, #6361b9);
 }
 
 

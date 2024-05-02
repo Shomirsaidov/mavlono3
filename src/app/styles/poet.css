@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Libre+Baskerville:ital@1&family=Poller+One&family=Roboto+Slab:wght@100..900&family=Rubik+Bubbles&family=Vina+Sans&display=swap');    
+
+* {
+    font-family: "Roboto Slab", serif;
+}
+
+.mygrey {
+    background: #ececec;
+}
+
+.poet_rounded {
+    border-radius: 43px;
+    border: 2px #2D2C54 solid;
+}
+
