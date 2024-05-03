@@ -4,13 +4,12 @@ import { useState } from "react"
 import TopBar from "@/app/components/barDefault"
 import poetstyle from '../../styles/poet.css'
 import Image from "next/image"
-import Popular from '../../components/popular_tab'
+import Popular from '../../components/Popular_tab'
 
 
 const Profile = ({ params }) => {
 
     const [tab, switchTab] = useState(0)
-    console.log(tab)
 
 
 
