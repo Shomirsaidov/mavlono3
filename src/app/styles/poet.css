@@ -13,3 +13,19 @@
     border: 2px #2D2C54 solid;
 }
 
+.super-small {
+    font-size: 9px;
+}
+
+.next_button {
+    background: linear-gradient(90deg,#2d2c54, #6361b9);
+}
+
+.tab_line {
+    height: 3px;
+    width: 100%;
+}
+
+.tab_line_active {
+    background: #2D2C54;
+}

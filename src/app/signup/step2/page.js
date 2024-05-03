@@ -35,7 +35,7 @@ const Page = () => {
                 <div class="checkbox-wrapper-18 flex space-x-2">
                     <div class="round">
                         <input type="checkbox" id="checkbox-22" />
-                        <label for="checkbox-19"></label>
+                        <label for="checkbox-22"></label>
                     </div>
                     <label for="checkbox-22">Саъди Шерози</label>
                 </div>
@@ -43,7 +43,7 @@ const Page = () => {
                 <div class="checkbox-wrapper-18 flex space-x-2">
                     <div class="round">
                         <input type="checkbox" id="checkbox-23" />
-                        <label for="checkbox-19"></label>
+                        <label for="checkbox-23"></label>
                     </div>
                     <label for="checkbox-23">Хофизи Шерози</label>
                 </div>
@@ -51,7 +51,7 @@ const Page = () => {
                 <div class="checkbox-wrapper-18 flex space-x-2">
                     <div class="round">
                         <input type="checkbox" id="checkbox-24" />
-                        <label for="checkbox-19"></label>
+                        <label for="checkbox-24"></label>
                     </div>
                     <label for="checkbox-24">Абулкодири Бедил</label>
                 </div>
@@ -59,7 +59,7 @@ const Page = () => {
                 <div class="checkbox-wrapper-18 flex space-x-2">
                     <div class="round">
                         <input type="checkbox" id="checkbox-25" />
-                        <label for="checkbox-19"></label>
+                        <label for="checkbox-25"></label>
                     </div>
                     <label for="checkbox-25">Лоик Шерали</label>
                 </div>
@@ -69,7 +69,7 @@ const Page = () => {
                         <input type="checkbox" id="checkbox-26" />
                         <label for="checkbox-26"></label>
                     </div>
-                    <label for="checkbox-19">Фаридуддини Аттор</label>
+                    <label for="checkbox-26">Фаридуддини Аттор</label>
                 </div>
                 
                 
