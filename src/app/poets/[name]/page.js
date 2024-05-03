@@ -52,21 +52,21 @@ const Profile = ({ params }) => {
             </div>
 
             <div className=" mt-4 mygrey rounded-t-3xl pb-0">
-                <div className="flex j">
-                    <div onClick={() => switchTab(0)} className="w-full hover:bg-gray-200 flex justify-center">
-                        <div className="p-2  text-center w-1/3">
+                <div className="flex justify-between">
+                    <div onClick={() => switchTab(0)} className="w-fu  flex justify-center">
+                        <div className="p-2 pl-4  text-center w-">
                             Машҳур
                         </div>
                     </div>
 
-                    <div onClick={() => switchTab(1)} className="w-full hover:bg-gray-200 flex justify-center">
-                        <div className="p-2  text-center w-1/3">
+                    <div onClick={() => switchTab(1)} className="w-fu  flex justify-center">
+                        <div className="p-2  text-center w-">
                             Навтарин
                         </div>
                     </div>
 
-                    <div onClick={() => switchTab(2)} className="w-full hover:bg-gray-200 flex justify-center">
-                        <div className="p-2  text-center w-1/3">
+                    <div onClick={() => switchTab(2)} className="w-fu  flex justify-center">
+                        <div className="p-2 pr-4  text-center w-">
                             Ҳифзкарда
                         </div>
                     </div>
