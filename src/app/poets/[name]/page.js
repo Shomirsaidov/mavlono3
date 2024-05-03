@@ -1,8 +1,18 @@
+'use client'
+
+import { useState } from "react"
 import TopBar from "@/app/components/barDefault"
 import poetstyle from '../../styles/poet.css'
 import Image from "next/image"
 
+
 const Profile = ({ params }) => {
+
+    const [tab, switchTab] = useState(0)
+    console.log(tab)
+
+
+
     return (
         <>
             <TopBar title={decodeURI(params.name)}/>
@@ -42,20 +52,20 @@ const Profile = ({ params }) => {
             </div>
 
             <div className=" mt-4 mygrey rounded-t-3xl pb-0">
-                <div className="flex justify-around">
-                    <div>
+                <div className="flex j">
+                    <div onClick={() => switchTab(0)} className="w-full hover:bg-gray-200 flex justify-center">
                         <div className="p-2  text-center w-1/3">
                             Машҳур
                         </div>
                     </div>
 
-                    <div>
+                    <div onClick={() => switchTab(1)} className="w-full hover:bg-gray-200 flex justify-center">
                         <div className="p-2  text-center w-1/3">
                             Навтарин
                         </div>
                     </div>
 
-                    <div>
+                    <div onClick={() => switchTab(2)} className="w-full hover:bg-gray-200 flex justify-center">
                         <div className="p-2  text-center w-1/3">
                             Ҳифзкарда
                         </div>
@@ -63,15 +73,42 @@ const Profile = ({ params }) => {
                 </div>
 
                 <div className="flex">
-                    <div className="tab_line "></div>
-                    <div className="tab_line tab_line_active"></div>
-                    <div className="tab_line "></div>
+                    <div className={tab == 0 ? 'tab_line tab_line_active' : 'tab_line'}></div>
+                    <div className={tab == 1 ? 'tab_line tab_line_active' : 'tab_line'}></div>
+                    <div className={tab == 2 ? 'tab_line tab_line_active' : 'tab_line'}></div>
                 </div>
 
 
             </div>
 
+
+            {
+                tab == 0 ? (
+                    <h1>Машҳур</h1>
+
+                ) : ('')
+            }
+
+            { 
+                tab == 1 ? (
+                    <h1>Навтарин</h1>
+
+                ) : ('')
+            }
+
+            { 
+                tab == 2 ? (
+                    <h1>Ҳифзкарда</h1>
+
+                ) : ('')
+            }
+
             
+
+
+
+
+
 
           
 
