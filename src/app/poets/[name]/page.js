@@ -4,6 +4,7 @@ import { useState } from "react"
 import TopBar from "@/app/components/barDefault"
 import poetstyle from '../../styles/poet.css'
 import Image from "next/image"
+import Popular from '../../components/popular_tab'
 
 
 const Profile = ({ params }) => {
@@ -84,7 +85,7 @@ const Profile = ({ params }) => {
 
             {
                 tab == 0 ? (
-                    <h1>Машҳур</h1>
+                    <Popular/>
 
                 ) : ('')
             }
