@@ -4,7 +4,7 @@ import { useState } from "react"
 import TopBar from "@/app/components/barDefault"
 import poetstyle from '../../styles/poet.css'
 import Image from "next/image"
-import Popular from '../../components/Popular_tab'
+import Popular from '../../components/popular_tab.js'
 
 
 const Profile = ({ params }) => {
@@ -51,7 +51,7 @@ const Profile = ({ params }) => {
                 </div>
             </div>
 
-            <div className=" mt-4 mygrey rounded-t-3xl pb-0">
+            <div className="sticky mt-4 mygrey rounded-t-3xl pb-0">
                 <div className="flex justify-between">
                     <div onClick={() => switchTab(0)} className="w-fu  flex justify-center">
                         <div className="p-2 pl-4  text-center w-">
