@@ -5,10 +5,10 @@ import profilecss from '../styles/profile.css'
 const profile = () => {
     return (
         <>
-            <TopBar/>
+            <TopBar title="Профил"/>
         
            <div className="px-8">
-           <div className="mt-20">
+           <div className="mt-20 md:px-80">
                 <div className="flex justify-between">
                     <div className="flex items-center space-x-4">
                         <div className="rounded-full p-4 bg-gray-200 font-bold">OX</div>
@@ -29,11 +29,12 @@ const profile = () => {
                 </button>
             </div>
 
-            <h1 className="text-blue-900 mt-8 text-xl font-bold">Шоирони дустдоштаи Хуршед</h1>
+            <h1 className="text-blue-900 mt-8 text-xl font-bold px-80">Шоирони дустдоштаи Хуршед</h1>
 
 
 
 
+            <div className="px-80">
             <div className="flex items-center mt-8 space-x-4">
                     <Image src={'/assets/imgs/rumi.png'} 
                         className="poet_rounded" 
@@ -72,6 +73,7 @@ const profile = () => {
                         <span className="text-gray-400 text-sm">4 хонанда</span>
                     </div>
                 </div>
+            </div>
 
            </div>
 

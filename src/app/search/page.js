@@ -6,7 +6,7 @@ import Image from "next/image"
 const page = ()=> {
     return (
         <>
-            <TopBar/>
+            <TopBar title="Ҷустуҷу"/>
             <div className="px-8">
                 <div className="flex items-center mt-20 p-2 justify-between bg-gray-200 rounded-full w-full">
                     <input type="text" className="bg-gray-200 px-4" placeholder="Бишнав аз най чун..."/>
