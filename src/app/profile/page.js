@@ -1,4 +1,5 @@
 import TopBar from "../components/barDefault"
+import Image from "next/image"
 import profilecss from '../styles/profile.css'
 
 const profile = () => {

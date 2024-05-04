@@ -11,7 +11,9 @@ const page = ()=> {
                 <div className="flex items-center mt-20 p-2 justify-between bg-gray-200 rounded-full w-full">
                     <input type="text" className="bg-gray-200 px-4" placeholder="Бишнав аз най чун..."/>
                     <div className="rounded-full p-4 bg-blue-800">
-                        <img src={'/assets/icons/search.svg'} className="cursor-pointer"/>
+                        <a href="/poems/asdasd">
+                            <img src={'/assets/icons/search.svg'} className="cursor-pointer"/>
+                        </a>
                     </div>
                 </div>
 
