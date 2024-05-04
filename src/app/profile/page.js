@@ -22,6 +22,60 @@ const profile = () => {
                     <div className="text-xl">+</div>
                 </button>
             </div>
+
+            <h1 className="text-blue-900 mt-8 text-xl font-bold">Шоирони дустдошта</h1>
+
+
+
+
+            <div className="flex items-center mt-8 space-x-4">
+                    <Image src={'/assets/imgs/rumi.png'} 
+                        className="poet_rounded" 
+                        width={112} 
+                        height={112}
+                        style={{width: '70px', height: '70px'}} />
+                    <div>
+                        <h1>Ҷалолиддини Румӣ</h1>
+                        <span className="text-gray-400 text-sm">4 хонанда</span>
+                    </div>
+                </div>
+
+                <div className="flex items-center mt-8 space-x-4">
+                    <Image src={'/assets/imgs/sadi.jfif'} 
+                        className="poet_rounded" 
+                        width={112} 
+                        height={112}
+                        style={{width: '70px', height: '70px'}} />
+                    <div>
+                        <h1>Саъдии Шерозӣ</h1>
+                        <span className="text-gray-400 text-sm">4 хонанда</span>
+                    </div>
+                </div>
+
+
+                <div className="flex items-center mt-8 space-x-4">
+                    <Image src={'/assets/imgs/khay.jfif'} 
+                        className="poet_rounded" 
+                        width={112} 
+                        height={112}
+                        style={{width: '70px', height: '70px'}} />
+                    <div>
+                        <h1>Умари Хайём</h1>
+                        <span className="text-gray-400 text-sm">4 хонанда</span>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
         
         </>
     )
