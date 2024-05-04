@@ -76,7 +76,7 @@ const Page = () => {
 
             </div>
 
-            <button className='next_button text-white p-4 mt-16 rounded-full w-full'>Давом додан</button>
+            <button className='next_button text-white p-4 mt-16 rounded-full w-full'><a href="/poets/Ҷалолиддини Румӣ">Давом додан</a></button>
 
           </div>
 

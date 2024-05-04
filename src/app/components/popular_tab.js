@@ -4,10 +4,7 @@ const Popular = () => {
     return (
         <>
             <Poem/>
-            <Poem/>
-            <Poem/>
-            <Poem/>
-            <Poem/>
+           
 
         </>
     )
