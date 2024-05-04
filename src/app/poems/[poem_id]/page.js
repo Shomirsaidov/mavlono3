@@ -51,6 +51,18 @@ const PoemPage = ({params}) => {
                 <div className="tags">#ишк</div>
             </div>
 
+            <h1 className="text-blue-900 mt-8 text-xl font-bold md:px-80">Монанди ин</h1>
+
+            <Poem/>
+
+
+
+
+
+
+
+
+
 
         </>
     )
