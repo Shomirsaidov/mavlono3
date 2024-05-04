@@ -20,7 +20,11 @@ const profile = () => {
                     <img src={'/assets/icons/edit-2.svg'} className="cursor-pointer"/>
                 </div>
                 <button className="flex items-center space-x-2 bg-gray-200 p-4 rounded-xl mt-8">
-                    <div>Иловаи шеър</div>
+                    <div>
+                        <a href="/addPoem">
+                        Иловаи шеър
+                        </a>
+                    </div>
                     <div className="text-xl">+</div>
                 </button>
             </div>
