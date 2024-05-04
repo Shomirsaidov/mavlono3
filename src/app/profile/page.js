@@ -29,12 +29,12 @@ const profile = () => {
                 </button>
             </div>
 
-            <h1 className="text-blue-900 mt-8 text-xl font-bold px-80">Шоирони дустдоштаи Хуршед</h1>
+            <h1 className="text-blue-900 mt-8 text-xl font-bold md:px-80">Шоирони дустдоштаи Хуршед</h1>
 
 
 
 
-            <div className="px-80">
+            <div className="md:px-80">
             <div className="flex items-center mt-8 space-x-4">
                     <Image src={'/assets/imgs/rumi.png'} 
                         className="poet_rounded" 
