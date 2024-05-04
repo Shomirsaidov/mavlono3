@@ -40,7 +40,7 @@ const Poem = (props) => {
                         <div style={{color: '#6865FF'}}>02.04.2024</div>
                         <div className="flex justify-between space-x-2">
                             <img src={'/assets/icons/like.svg'} width={25} className="mb-2"/>
-                            <span>2345</span>
+                            <span>2</span>
                         </div>                
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Poem = (props) => {
                         <div style={{color: '#6865FF'}}>02.04.2024</div>
                         <div className="flex justify-between space-x-2">
                             <img src={'/assets/icons/like.svg'} width={25} className="mb-2"/>
-                            <span>2345</span>
+                            <span>3</span>
                         </div>                
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const Poem = (props) => {
                         <div style={{color: '#6865FF'}}>02.04.2024</div>
                         <div className="flex justify-between space-x-2">
                             <img src={'/assets/icons/like.svg'} width={25} className="mb-2"/>
-                            <span>2345</span>
+                            <span>4</span>
                         </div>                
                     </div>
                 </div>
