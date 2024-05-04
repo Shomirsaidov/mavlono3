@@ -13,7 +13,7 @@ const profile = () => {
                     <div className="flex items-center space-x-4">
                         <div className="rounded-full p-4 bg-gray-200 font-bold">OX</div>
                         <div>
-                            <div className="font-bold text-xl">odil khurshedi</div>
+                            <div className="font-bold text-xl">Одил Хуршеди</div>
                             <span className="text-white px-2 rounded-md text-sm " style={{background: '#2d2c54'}}>хонанда</span>
                         </div>
                     </div>
@@ -37,7 +37,9 @@ const profile = () => {
                         height={112}
                         style={{width: '70px', height: '70px'}} />
                     <div>
-                        <h1>Ҷалолиддини Румӣ</h1>
+                        <a href="/poets/Ҷалолиддини Румӣ">
+                            <h1>Ҷалолиддини Румӣ</h1>
+                        </a>
                         <span className="text-gray-400 text-sm">4 хонанда</span>
                     </div>
                 </div>

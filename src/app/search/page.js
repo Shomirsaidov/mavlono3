@@ -41,7 +41,9 @@ const page = ()=> {
                         height={112}
                         style={{width: '70px', height: '70px'}} />
                     <div>
-                        <h1>Ҷалолиддини Румӣ</h1>
+                        <a href="/poets/Ҷалолиддини Румӣ">
+                            <h1>Ҷалолиддини Румӣ</h1>
+                        </a>
                         <span className="text-gray-400 text-sm">4 хонанда</span>
                     </div>
                 </div>
