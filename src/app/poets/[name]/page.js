@@ -33,17 +33,17 @@ const Profile = ({ params }) => {
                     <div className="flex flex-col items-center">
                         <img src={'/assets/icons/edit-2.svg'} width={25} className="mb-2"/>
                         <div className="text-center text-sm">57</div>
-                        <span className="super-small">Editors</span>
+                        <span className="super-small">муҳаррирон</span>
                     </div>
                     <div className="flex flex-col items-center">
                         <img src={'/assets/icons/glass-1.svg'} width={25} className="mb-2"/>
                         <div className="text-center text-sm">57</div>
-                        <span className="super-small">Editors</span>
+                        <span className="super-small">хонандагон</span>
                     </div>
                     <div className="flex flex-col items-center">
                         <img src={'/assets/icons/book.svg'} width={25} className="mb-2"/>
                         <div className="text-center text-sm">57</div>
-                        <span className="super-small">Editors</span>
+                        <span className="super-small">ашъор</span>
                     </div>
                 </div>
                 <div className="flex justify-center">
