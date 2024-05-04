@@ -27,7 +27,9 @@ const Page = () => {
               <input type='password' placeholder='Парол' className='form p-4 rounded-lg outline-none'/>
             </div>
 
-            <button className='next_button text-white p-4 mt-16 rounded-full w-full'>Давом додан</button>
+            <button className='next_button text-white p-4 mt-16 rounded-full w-full'>
+              <a href='/signup/step2'>Давом додан</a>
+            </button>
 
           </div>
 
