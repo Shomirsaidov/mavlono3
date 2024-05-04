@@ -38,7 +38,10 @@ const page = ()=> {
                         width={112} 
                         height={112}
                         style={{width: '70px', height: '70px'}} />
-                    <h1>Ҷалолиддини Румӣ</h1>
+                    <div>
+                        <h1>Ҷалолиддини Румӣ</h1>
+                        <span className="text-gray-400 text-sm">4 хонанда</span>
+                    </div>
                 </div>
 
                 <div className="flex items-center mt-8 space-x-4">
@@ -47,7 +50,10 @@ const page = ()=> {
                         width={112} 
                         height={112}
                         style={{width: '70px', height: '70px'}} />
-                    <h1>Саъдии Шерозӣ</h1>
+                    <div>
+                        <h1>Саъдии Шерозӣ</h1>
+                        <span className="text-gray-400 text-sm">4 хонанда</span>
+                    </div>
                 </div>
 
 
@@ -57,7 +63,10 @@ const page = ()=> {
                         width={112} 
                         height={112}
                         style={{width: '70px', height: '70px'}} />
-                    <h1>Умари Хайём</h1>
+                    <div>
+                        <h1>Умари Хайём</h1>
+                        <span className="text-gray-400 text-sm">4 хонанда</span>
+                    </div>
                 </div>
 
                 <div className="flex items-center mt-8 space-x-4">
@@ -66,7 +75,10 @@ const page = ()=> {
                         width={112} 
                         height={112}
                         style={{width: '70px', height: '70px'}} />
-                    <h1>Абулқодири Бедил</h1>
+                    <div>
+                        <h1>Абулқодири Бедил</h1>
+                        <span className="text-gray-400 text-sm">4 хонанда</span>
+                    </div>
                 </div>
 
 
