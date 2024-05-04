@@ -9,8 +9,9 @@ const Poem = (props) => {
                     Боғи ҷонро тозаву сарсабз дор! <br/>
                     Қасди ин мастону ин бустон макун!   
                     </div>
-                    <button style={{color: '#6865FF'}}>...муфассал</button>
-
+                    <button style={{color: '#6865FF'}}>
+                        <a href="/poems/asdasdads">...муфассал</a>
+                    </button>
                     <div className="flex justify-between mt-4">
                         <div style={{color: '#6865FF'}}>02.04.2024</div>
                         <div className="flex justify-between space-x-2">
@@ -34,8 +35,9 @@ const Poem = (props) => {
 Ҳарчанд заҳмат мерасад ,бисёр неъмат мерасад ,<br/>
 Акнун ,ки фурсат мерасад ,бедор шав вақти саҳар .   
                     </div>
-                    <button style={{color: '#6865FF'}}>...муфассал</button>
-
+                    <button style={{color: '#6865FF'}}>
+                        <a href="/poems/asdasdads">...муфассал</a>
+                    </button>
                     <div className="flex justify-between mt-4">
                         <div style={{color: '#6865FF'}}>02.04.2024</div>
                         <div className="flex justify-between space-x-2">
@@ -56,7 +58,9 @@ const Poem = (props) => {
 К-аз найистон то маро бибридаанд,<br/>
 Дар нафирам марду зан нолидаанд.  
                     </div>
-                    <button style={{color: '#6865FF'}}>...муфассал</button>
+                    <button style={{color: '#6865FF'}}>
+                        <a href="/poems/asdasdads">...муфассал</a>
+                    </button>
 
                     <div className="flex justify-between mt-4">
                         <div style={{color: '#6865FF'}}>02.04.2024</div>
@@ -77,8 +81,9 @@ const Poem = (props) => {
 Ҳар сангу гиле гавҳари ноёб нагардад,<br/>
 Ҳар Аҳмаду Маҳмуд Расулӣ маданӣ нест.<br/>
                     </div>
-                    <button style={{color: '#6865FF'}}>...муфассал</button>
-
+                    <button style={{color: '#6865FF'}}>
+                        <a href="/poems/asdasdads">...муфассал</a>
+                    </button>
                     <div className="flex justify-between mt-4">
                         <div style={{color: '#6865FF'}}>02.04.2024</div>
                         <div className="flex justify-between space-x-2">
