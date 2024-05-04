@@ -7,7 +7,8 @@ const profile = () => {
         <>
             <TopBar/>
         
-            <div className="mt-20 px-8">
+           <div className="px-8">
+           <div className="mt-20">
                 <div className="flex justify-between">
                     <div className="flex items-center space-x-4">
                         <div className="rounded-full p-4 bg-gray-200 font-bold">OX</div>
@@ -24,7 +25,7 @@ const profile = () => {
                 </button>
             </div>
 
-            <h1 className="text-blue-900 mt-8 text-xl font-bold">Шоирони дустдошта</h1>
+            <h1 className="text-blue-900 mt-8 text-xl font-bold">Шоирони дустдоштаи Хуршед</h1>
 
 
 
@@ -66,6 +67,7 @@ const profile = () => {
                     </div>
                 </div>
 
+           </div>
 
 
 

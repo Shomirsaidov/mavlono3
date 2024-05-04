@@ -3,3 +3,8 @@
 * {
     font-family: "Roboto Slab", serif;
 }
+
+.poet_rounded {
+    border-radius: 43px;
+    border: 2px #2D2C54 solid;
+}
